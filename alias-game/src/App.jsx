@@ -4,6 +4,8 @@ import gummyBearRed from './assets/gummy_bear_red.png';
 import gummyBearBlue from './assets/gummy_bear_blue.png';
 import gummyBearGreen from './assets/gummy_bear_green.png';
 import gummyBearYellow from './assets/gummy_bear_yellow.png';
+import gummyBear from './assets/gummy_bear.png';
+
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,6 +18,7 @@ function App() {
     gummyBearBlue,
     gummyBearGreen,
     gummyBearYellow,
+    gummyBear,
   ];
 
   // Функция для вычисления размытия и размера мишек
